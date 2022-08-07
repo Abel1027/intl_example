@@ -1,0 +1,31 @@
+name: intl_example
+description: A new Flutter project.
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  intl: ^0.17.0
+
+flutter_intl:
+  enabled: true
+  class_name: IntlStrings
+  main_locale: en
+  arb_dir: lib/l10n
+  output_dir: lib/l10n/generated
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true

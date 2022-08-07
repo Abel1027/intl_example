@@ -1,0 +1,3 @@
+{
+    "counterTitle": "{count, plural, zero{Nuestro contador es cero} one{El valor del contador es 1} other{Has presionado el botón estas veces: {count}}}"
+}
